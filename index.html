@@ -4,15 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
     <title> PBP | Accueil</title>
 </head>
 
 <body>
 
+    <!-- Header -->
+    <div class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <nav class="col navbar navbar-expand-md navbar-dark">
+                    <a class="navbar-brand" href="...">
+                        <img src="" alt="" height="50" width="50">
+                        Pizzeria Bootstrap Project
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navbarContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="carte.html">Carte</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="photos.html">Photos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="restaurants.html">Restaurants</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div> 
+
+    <!-- Main -->
+    <!-- Main / Jumbotron -->
     <div class="container">
         <div class="row">
             <div class="col">
-                <!-- Jumbotron -->
                 <div class="card-image" style="background-image: url(assets/img/pizza.jpg)">
                 <div class="text-white text-center rgba-stylish-strong py-5 px-4">
                 <div class="py-5">
@@ -34,7 +72,7 @@
         </div>
         -->
     </div>
-    <!-- Cards -->
+    <!-- Main / Cards -->
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-4">
@@ -63,7 +101,54 @@
             </div>
         </div>
     </div>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    
+     <!-- Footer -->
+     <footer class="page-footer font-small bg-dark pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-4 mb-3 text-center">
+                    <h5 class="text-uppercase text-light">Contact</h5>
+                    <a href="mailto:nullepart@pizzeria.com" class="text-light">nullepart@pizzeria.com</a>
+                </div>
+                <div class="col-md-4 mb-3 text-center">
+                    <h5 class="text-uppercase text-light">Réseaux sociaux</h5>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="#" class="fa fa-facebook text-light display-4"></a>
+                        </li>
+                        <li class="list-inline-item text-dark">&middot;</li>
+                        <li class="list-inline-item">
+                            <a href="#" class="fa fa-twitter text-light display-4"></a>
+                        </li>
+                        <li class="list-inline-item text-dark">&middot;</li>
+                        <li class="list-inline-item">
+                            <a href="#" class="fa fa-snapchat text-light display-4"></a>
+                        </li>
+                        <li class="list-inline-item text-dark">&middot;</li>
+                        <li class="list-inline-item">
+                            <a href="#" class="fa fa-instagram text-light display-4"></a>
+                        </li>
+                        <li class="list-inline-item text-dark">&middot;</li>
+                        <li class="list-inline-item">
+                            <a href="#" class="fa fa-youtube text-light display-4"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h5 class="text-uppercase text-light">Politique de confidentialité</h5>
+                    <a href="#rgpd" class="text-light">Lien vers les R.G.P.D</a>
+                </div>
+            </div> 
+        </div>
+        <div class="footer-copyright text-center py-3 text-light">© 2020 Copyright:
+            <a href="https://pizzeriabootstrapproject.com/" class="text-light">pizzeriabootstrapproject.com</a>
+        </div>
+    </footer>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
