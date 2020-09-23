@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurant Pizzeria">
+    <meta name="keywords" content="Restaurant, Pizzeria">
+    <meta name="author" content="Pauline, Valentin, Dorian, Jonathan">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css%22%3E">
     <title> PBP | Contact</title>
@@ -44,6 +48,62 @@
                 </nav>
             </div>
         </div>
+    </div>
+
+    <!-- Main -->
+    <div class="container">
+        <h2>Formulaire de contact</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-12 col-md-6">
+                    <label for="inputNom">Nom</label>
+                    <input type="text" id="inputNom" class="form-control" placeholder="Entrez votre nom">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label for="inputPrenom">Prénom</label>
+                    <input type="text" id="inputPrenom" class="form-control" placeholder="Entrez votre prénom">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Adresse email</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Entrez votre email">
+                <small id="emailHelp" class="form-text text-muted">Votre email ne sera pas employé à des fins commerciales.</small>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-12 col-md-8">
+                    <label for="inputAdresse">Adresse</label>
+                    <input type="text" id="inputAdresse" class="form-control" placeholder="Entrez votre rue et le numéro">
+                </div>
+                <div class="form-group col-12 col-md-4">
+                    <label for="inputNBoite">Numéro de boite</label>
+                    <input type="text" id="inputNBoite" class="form-control" placeholder="Entrez votre n° de boite">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-12 col-md-8">
+                    <label for="inputVille">Ville</label>
+                    <input type="text" id="inputVille" class="form-control" placeholder="Entrez votre ville">
+                </div>
+                <div class="form-group col-12 col-md-4">
+                    <label for="inputCP">Code postal</label>
+                    <input type="text" id="inputCP" class="form-control" placeholder="Entrez votre code postal">
+                </div>
+            </div>
+    
+            <div class="form-group">
+                <label for="inputSujet">Sujet</label>
+                <select id="inputSujet" class="form-control">
+                    <option selected>Livraison</option>
+                    <option>Réclamation</option>
+                    <option>Autre</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="inputTexte">Veuillez préciser le sujet de votre message</label>
+                <textarea class="form-control" id="inputTexte" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
     </div>
 
     <!-- Footer -->
